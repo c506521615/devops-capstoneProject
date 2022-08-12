@@ -1,4 +1,4 @@
-package com.blogspot.javabyrajasekhar;
+package com.devops.csahoo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,6 +15,6 @@ public class SpringbootDockerDemoApplication {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return "Welcome to Docker";
+		return "Greetings from Spring Boot!";
 	}
 }

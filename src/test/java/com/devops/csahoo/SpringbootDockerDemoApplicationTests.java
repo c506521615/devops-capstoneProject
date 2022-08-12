@@ -1,4 +1,4 @@
-package com.blogspot.javabyrajasekhar;
+package com.devops.csahoo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
