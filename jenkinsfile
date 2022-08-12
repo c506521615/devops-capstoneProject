@@ -12,7 +12,7 @@
      }
 
      stages {
-         stage('Checkout') {
+         stage('SCM Checkout') {
              steps {
                  git branch: 'master', url: 'https://github.com/c506521615/devops-capstoneProject.git'
              }
